@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Romanesco&display=swap");
+
+/********** ENCABEZADO **********/
+
+#headerSpa {
+  height: 70px;
+  background-color: #A3A656;
+  color: #000;
+  
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+#headerSpa ul {
+  margin: 0;
+  padding-top: 15px;
+  padding-left: 70px;
+  list-style-type: none;
+}
+
+#headerSpa ul li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+#headerSpa ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+#headerSpa ul li a:hover {
+  color: #FFFF00;
+}
+
+.miCuenta {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+
+  margin-right: 20px;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+#menuSpaDerecha {
+  margin-left: 20px; 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#menuSpaDerecha ul {
+  padding: 5px 0 5px 5px;
+}
+
+
+/********** PRESENTACIÓN PÁGINA **********/
+
+#spaJodos {
+  height: 600px;
+  background-image: url("../img/main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textoSpaJodos {
+  margin-left: 125px;
+  width: 600px;
+}
+
+#tituloSpaJodos {
+  font-family: "Romanesco", sans-serif;
+  font-weight: 400;
+  font-size: 96px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  padding-top: 140px;
+  padding-bottom: 5px;
+}
+
+#sloganSpaJodos {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  margin: 15px;
+}
+
+/********** RESERVAR CITA Y CÓDIGO PROMOCIONAL **********/
+
+#menuBusqueda {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  background-color: #f2f6f6;
+  padding: 25px 100px;
+  box-sizing: content-box;
+  justify-content: center;
+}
+
+#menuBusqueda div {
+  text-align: center;
+}
+
+.textoBusqueda {
+  display: inline;
+  text-align: center;
+  padding: 15px;
+}
+
+#botonReservaCita {
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #fff;
+  border: none;
+  width: 15rem;
+}
+
+#botonCodigoPromocional {
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #FFF;
+  color: #9E9A9A;
+  border: none;
+}
+
+/********** TIPOS DE MASAJES **********/
+
+#tiposDeMasajes {
+  background-color: #fff;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
+#tiposDeMasajes h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #fff;
+  background-color: #a3a656;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+  margin: 0;
+  padding: 15px 0;
+}
+
+#tiposDeMasajes article {
+  width: 33%;
+  display: inline-block;
+}
+
+#tiposDeMasajes article p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.masaje {
+  width: 350px;
+  border: none;
+}
+
+.masaje div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botonReservar {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background-color: #a3a656;
+  border-radius: 35px;
+  border: none;
+  padding: 15px 40px;
+}
+
+.botonReservar:hover {
+  background-color: #384001;
+}
+
+.masaje div h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  padding: 0 15px 0;
+  margin: 0;
+}
+
+/********** PLANES **********/
+
+#planes {
+  background-color: #f2f6f6;
+  text-align: center;
+  height: 770px;
+  box-sizing: border-box;
+}
+
+#planes h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+#planes article {
+  display: inline-block;
+  vertical-align: top;
+  margin: 70px 95px;
+  justify-content: center;
+  align-items: center;
+}
+
+.circuloPlan {
+  border: 10px solid #384001;
+  background-color: #fff;
+  width: 233px;
+  height: 233px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botonVerCondiciones {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background-color: #a3a656;
+  border-radius: 35px;
+  border: none;
+  padding: 15px 70px;
+  margin: 20px 0;
+}
+
+.botonVerCondiciones:hover {
+  background-color: #384001;
+}
+
+#planes article ul {
+  padding-left: 80px;
+  text-align: left;
+}
+
+#planes article ul li {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/********** FOOTER **********/
+
+footer {
+  height: 97px;
+  background-color: #384001;
+  color: #A3A656;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+footer ul {
+  margin: 0;
+  padding-top: 15px;
+  padding-left: 70px;
+  list-style-type: none;
+}
+
+footer ul li{
+  display: inline-block;
+  margin-right: 70px;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: #A3A656;
+}
+
+footer ul li a:hover{
+  color: #FFFF00;
+}
+
+.siguenos {
+  margin-right: 30px;
+  justify-content: center;
+  vertical-align: middle;
+}
